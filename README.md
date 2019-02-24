@@ -1,5 +1,5 @@
-README
-======
+# dokuwiki-plugin-barcode
+
 Dokuwiki plugin to create 2D-Barcodes using different providers.
 
 Barcode generates 2D barcodes using different providers, currently:
