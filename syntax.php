@@ -25,7 +25,7 @@ class syntax_plugin_barcode extends DokuWiki_Syntax_Plugin {
 	function connectTo($mode) {
 		$this->Lexer->addSpecialPattern('~~BARCODE.*?~~', $mode, 'plugin_barcode');
 	}
-	function handle($match, $state, $pos, &$handler) {
+	function handle($match, $state, $pos, Doku_Handler $handler) {
 		global $conf;
 		global $ID;
 		$paramsArr = explode('~', $match);
@@ -64,7 +64,7 @@ class syntax_plugin_barcode extends DokuWiki_Syntax_Plugin {
 		$out .= $service->render($p);
 		return $out;
 	}
-	function render($mode, &$renderer, $data) {
+	function render($mode, Doku_Renderer $renderer, $data) {
 		global $conf;
 		global $ID;
 		if ($mode == 'xhtml') {

@@ -12,7 +12,7 @@ if (!defined('DOKU_PLUGIN')) define('DOKU_PLUGIN',DOKU_INC.'lib/plugins/');
 if (!defined('DOKU_PLUGIN_BARCODE')) define('DOKU_PLUGIN_BARCODE',DOKU_PLUGIN.'barcode/');
 require_once(DOKU_PLUGIN . 'action.php');
 class action_plugin_barcode extends DokuWiki_Action_Plugin {
-	function register(&$controller) {
+    function register(Doku_Event_Handler $controller) {
 		$controller->register_hook('TOOLBAR_DEFINE', 'AFTER', $this, 'toolbar_add_button_barcode', array ());
 	}
 	function toolbar_add_button_barcode(&$event, $param) {
