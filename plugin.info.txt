@@ -1,6 +1,7 @@
+base   barcode
 author eIrOcA
 email  staff@eiroca.net
-date   2013-06-29
+date   2019-02-24
 name   barcode -- 2D-Barcode Plugin
 desc   2D-Barcode Plugin. Syntax: ~~BARCODE~id=css_id~class=css_class~mode=0~size=M~caption=x~url=http://myurl.com~~
-url    http://www.eiroca.net/dokuwiki_barcode
+url    http://www.eiroca.net/doku_barcode
