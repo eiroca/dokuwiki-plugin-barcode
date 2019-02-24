@@ -1,6 +1,6 @@
 README
 ======
-Dokuwiki plugin to create 2D-Barcodes using different providers; the plug-in is present in the Dokuwiki tools collection.
+Dokuwiki plugin to create 2D-Barcodes using different providers.
 
 Barcode generates 2D barcodes using different providers, currently:
  * Google Charts
@@ -10,4 +10,4 @@ Barcode generates 2D barcodes using different providers, currently:
 
 Layout of the barcode can be definited by CSS styles.
 
-Complete documentation here: http://www.eiroca.net/doku_barcode
+[More information at official site](http://www.eiroca.net/doku_barcode)
